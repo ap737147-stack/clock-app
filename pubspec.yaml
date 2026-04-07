@@ -21,6 +21,10 @@ dependencies:
   file_picker: ^8.0.0+1
   cupertino_icons: ^1.0.2
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
 dependency_overrides:
   record_linux: ^1.0.0
   record_platform_interface: ^1.5.0
