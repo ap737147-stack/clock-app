@@ -1,0 +1,26 @@
+name: clock_app
+
+environment:
+  sdk: '^3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  audioplayers: ^5.2.1
+  record: ^5.1.0
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.1.0
+  path_provider: ^2.1.1
+  intl: ^0.18.1
+  uuid: ^4.3.3
+  flutter_local_notifications: ^21.0.0
+  timezone: ^0.11.0
+  flutter_timezone: ^5.0.2
+  table_calendar: ^3.0.9
+  file_picker: ^8.0.0+1
+  cupertino_icons: ^1.0.2
+
+dependency_overrides:
+  record_linux: ^1.0.0
+  record_platform_interface: ^1.5.0
