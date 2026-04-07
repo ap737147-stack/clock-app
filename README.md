@@ -125,24 +125,3 @@ HomeScreen
     └──► AlarmActiveScreen (when alarm fires)
 ```
 
-<br/>
-
-## 🛠️ How to Extend
-
-**Add a new screen**
-1. Create `lib/screens/your_screen.dart`
-2. Add a route constant in `lib/utils/app_routes.dart`
-3. Register it in `main.dart` under `routes:`
-
-**Add a new field to alarms**
-1. Add the field in `alarm_model.dart`
-2. Update `toJson()` and `fromJson()` in the same file
-3. Update `copyWith()` so existing code still works
-
-**Change colors or fonts**
-Edit `lib/utils/app_theme.dart` — changes apply everywhere automatically.
-
-<br/>
-
-
-<p align="center">Built with ❤️ using Flutter</p>
